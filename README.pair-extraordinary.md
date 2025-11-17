@@ -21,7 +21,7 @@ An opinionated & minimalist JavaScript full-stack starter kit. Based on popular 
 Clone this repository and run the following command for a local dev environment:
 
 ```
-<!-- make up -->
+make up
 ```
 
 > This will spin up a database instance running on `localhost:27017`, a backend instance running on `localhost:1337` and a frontend instance running on `localhost:3000`. See `docker-compose.yml` for the detailed setup.
@@ -34,7 +34,7 @@ Clone this repository and run the following command for a local dev environment:
 To run all test just enter:
 
 ```
-make test
+<!-- make test -->
 ```
 
 > This will run all tests defined in the `backend` and `frontend` directories. See `docker-compose.ci.yml` for the detailed setup. Can ideally be used in your CI runners.
